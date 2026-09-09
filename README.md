@@ -29,6 +29,9 @@ The application uses **Local Storage** to persist tasks, so your tasks remain av
 - 📭 **Empty State**
   - Displays a message when there are no tasks available.
 
+- ⚡ **Dynamic Task Management**
+  - Tasks are dynamically created, updated, and removed using JavaScript.
+
 - 📱 **Responsive Design**
   - Provides a clean user experience across different screen sizes.
 
@@ -38,7 +41,7 @@ The application uses **Local Storage** to persist tasks, so your tasks remain av
 
 - **HTML5** — Page structure and markup
 - **CSS3** — Styling, layout, and responsive design
-- **JavaScript (ES6+)** — Application logic and DOM manipulation
+- **JavaScript (ES6+)** — Application logic, DOM manipulation, and event handling
 - **Local Storage API** — Persistent task storage
 
 ---
@@ -47,11 +50,12 @@ The application uses **Local Storage** to persist tasks, so your tasks remain av
 
 1. Enter a task in the input field.
 2. Click the **Add Task** button or press **Enter**.
-3. JavaScript creates and displays the task dynamically.
-4. The task is saved to **Local Storage**.
-5. Tasks can be marked as completed or restored using **Complete / Undo**.
-6. Individual tasks can be deleted.
-7. The **All Clear** button removes all saved tasks.
+3. JavaScript creates the task dynamically.
+4. The task is displayed in the task list.
+5. The task is saved to **Local Storage**.
+6. Users can mark tasks as completed or undo them.
+7. Individual tasks can be deleted.
+8. The **All Clear** button removes all tasks and clears the stored data.
 
 ---
 
@@ -73,3 +77,74 @@ To-Do-list/
 ├── index.html
 ├── style.css
 └── script.js
+```
+
+---
+
+## 💻 Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/deepanshupal-dev/To-Do-list.git
+```
+
+### 2. Open the project
+
+```bash
+cd To-Do-list
+```
+
+### 3. Run the application
+
+Open `index.html` in your browser or use the **Live Server** extension in VS Code.
+
+---
+
+## 🧠 What I Learned
+
+Through this project, I practiced:
+
+- DOM manipulation
+- Event listeners
+- JavaScript functions
+- Arrays and objects
+- Dynamic element creation
+- User input handling
+- Local Storage
+- `JSON.stringify()`
+- `JSON.parse()`
+- Array methods such as `push()` and `filter()`
+- Conditional logic
+- Keyboard events
+- Dynamic UI updates
+- Responsive web design
+
+---
+
+## 🎯 Future Improvements
+
+Some improvements I plan to add in future versions:
+
+- ✏️ Edit existing tasks
+- 🔍 Search and filter tasks
+- 📊 Task statistics
+- 📅 Task categories and priorities
+- 🌙 Dark mode
+- 🔔 Task reminders
+- 🎨 Improved UI and animations
+
+---
+
+## 👨‍💻 Author
+
+**Deepanshu Pal**
+
+Frontend Developer | Aspiring Full Stack Developer
+
+- GitHub: [@deepanshupal-dev](https://github.com/deepanshupal-dev)
+- Email: deepanshupal190@gmail.com
+
+---
+
+⭐ If you find this project useful, feel free to explore the repository and give it a star!
