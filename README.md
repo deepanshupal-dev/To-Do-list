@@ -135,6 +135,10 @@ Some improvements I plan to add in future versions:
 - 🎨 Improved UI and animations
 
 ---
+## 🚀 Live Demo
+
+[View Live Project](https://deepanshupal-dev.github.io/To-Do-list/)
+
 
 ## 👨‍💻 Author
 
